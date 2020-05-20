@@ -1,0 +1,16 @@
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/suite/SuiteConfig.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/TimeOutTest.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/DependTest.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/paramter/DataProvideTest.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/groups/GroupsOnClass2.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/IgnoreTest.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/multiThread/MultiThreadOnXml.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/suite/LoginTest.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/groups/GroupsOnClass1.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/suite/PayTest.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/groups/GroupsOnClass3.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/multiThread/MultiThreadOnAnnotion.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/ExpectedException.java
+/Users/catty/workspace/IDEAWorkspace/AutoTest/Chapter5/src/main/java/com/course/testng/paramter/ParamterTest.java

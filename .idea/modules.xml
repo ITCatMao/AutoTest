@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AutoTest.iml" filepath="$PROJECT_DIR$/AutoTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter1001/Chapter1001.iml" filepath="$PROJECT_DIR$/Chapter1001/Chapter1001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter11/Chapter11.iml" filepath="$PROJECT_DIR$/Chapter11/Chapter11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter12/Chapter12.iml" filepath="$PROJECT_DIR$/Chapter12/Chapter12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter13/Chapter13.iml" filepath="$PROJECT_DIR$/Chapter13/Chapter13.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter5/Chapter5.iml" filepath="$PROJECT_DIR$/Chapter5/Chapter5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter6/Chapter6.iml" filepath="$PROJECT_DIR$/Chapter6/Chapter6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter9/Chapter9.iml" filepath="$PROJECT_DIR$/Chapter9/Chapter9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiekou_AutoTest.iml" filepath="$PROJECT_DIR$/jiekou_AutoTest.iml" />
     </modules>
   </component>
 </project>

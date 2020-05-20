@@ -1,0 +1,23 @@
+server:
+  port: 8888
+
+#启动Application后访问：http://localhost:8888/swagger-ui.html
+
+logging:
+  path: logs
+  file: mylog.log
+
+
+spring:
+  application:
+    name: userManager
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/course1?serverTimezone=GMT
+    username: root
+    password: P@ss12345
+
+mybatis:
+  type-aliases-package: com.course.model
+  mapper-locations:
+    - mapper/*

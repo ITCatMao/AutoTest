@@ -1,0 +1,40 @@
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json
+get方法，直接浏览器访问：http://localhost:8888/demo
+
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startupGet.json
+1.get方法，直接浏览器访问：http://localhost:8888/getdemo
+2.get方法，带name和age参数，浏览器访问：http://localhost:8888/getwithparam?name=huhansan&age=18
+
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startupPost.json
+1.在jmeter中输入地址，路径/postdemo和端口，请求方式post，直接发送post请求，查看结果树
+2.在jmeter中输入地址，路径/postwithparam和端口，请求方式post，参数nname=huhansan&sex=man，查看结果树
+
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startupWithCookies.json
+添加http cookie管理器，参数login true localhost / 总共4个值
+1.jmeter中IP:localhost,Path:/getCookies,port:8888,Method:get,
+2.jmeter中IP:localhost,Path:/get/with/cookies,port:8888,Method:get,
+3.jmeter中IP:localhost,Path:/post/with/cookies,port:8888,Method:post,携带body data：
+{
+        "name": "huhansan",
+        "age": "18"
+      }
+
+
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startupWithHeader.json
+添加http header，参数content-type:application/json
+1.jmeter中IP:localhost,Path:/post/with/headers,port:8888,Method:post,携带body data：
+{
+	   "name":"wanglaosi",
+        "sex":"woman"
+	}
+
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startupWithRedirect.json
+1.浏览器访问：http://localhost:8888/redirect 重定向到http://www.baidu.com
+2.浏览器访问：http://localhost:8888/redirect/topath 重定向到http://localhost:8888/redirect/new
+
+
+打开 https://reamhead/moco-runner/0.11.0/repo1.maven.org/maven2/com/github/dreamhead/moco-runner/0.11.0/
+下载//moco-runner-0.11.0-standalone.jar 包，导入
+
+控制台进入到Chapter7，使用上述操作命令即可
+浏览器访问：http://localhost:8888/demo 即可
